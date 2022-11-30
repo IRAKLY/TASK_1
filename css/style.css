@@ -1,0 +1,131 @@
+/*
+///////////////////////////////////////
+/////////////////TAGS//////////////////
+///////////////////////////////////////
+*/
+@import url(bootstrap.min.css);
+/*
+///////////////////////////////////////
+////////////////HEADER/////////////////
+///////////////////////////////////////
+*/
+
+.header {
+	margin: 0px;
+	height: 70px;
+}
+
+/*
+///////////////////////////////////////
+///////////////CONTENT/////////////////
+///////////////////////////////////////
+*/
+.content {
+	width: 100%;
+	padding: 70px 20px;
+}
+
+.content-titleForm {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 20px 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.content-titleForm__title {
+	text-transform: uppercase;
+	color: red;
+}
+
+.content-form {
+	padding-top: 20px;
+}
+
+#addBookForm {
+	width: 100%;
+	outline: none;
+	text-transform: uppercase;
+}
+
+#editBookForm {
+	width: 100%;
+	display: none;
+	outline: none;
+}
+
+.list-items-book {
+	height: 100px;
+	margin: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.list-items-book-fields-author__title, .list-items-book-fields-name__title{
+	color: red;
+}
+
+.list-items-book-action {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 120px;
+	padding: 10px;
+}
+
+.list-items-book-action-link__edit:hover, .list-items-book-action-link__remove:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.list-items-book:nth-child(even) {
+	background-color: #dcd7d7;
+}
+
+.list-items-book:hover {
+	background-color: #ddddea;
+}
+
+#closeBookForm {
+	display: none;
+	width: 100%;
+	outline: none;
+}
+
+/*
+///////////////////////////////////////
+////////////////FOOTER/////////////////
+///////////////////////////////////////
+*/
+
+.footer {
+	height: 70px;
+}
+
+/*
+///////////////////////////////////////
+/////////////////END///////////////////
+///////////////////////////////////////
+*/
+.header-button__clear {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	outline: none;
+	border: 0px;
+	color: #FFF;
+	background-color:darkslateblue;
+}
+
+.header-button {
+	margin: 0 auto;
+	width: 200px;
+	height: 100%;
+	padding: 10px;
+}
